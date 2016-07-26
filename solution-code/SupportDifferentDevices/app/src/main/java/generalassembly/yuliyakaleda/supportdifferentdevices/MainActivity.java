@@ -36,5 +36,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     // This icon was generated as a new vector asset (File > New > Vector Asset) and saved in the
     // drawable folder
     image.setBackgroundResource(R.drawable.ic_insert_emoticon_40dp);
+
+    button.setOnClickListener(new View.OnClickListener() {
+                  @Override
+                  public void onClick(View view) {
+                        text.setText(R.string.button_text_clicked);
+                        image.setImageResource(R.drawable.ic_insert_emoticon_black_24dp);
+                        image.setBackgroundResource(R.drawable.ic_insert_emoticon_black_24dp);
+      }
+              });
+        }
   }
-}
+
+

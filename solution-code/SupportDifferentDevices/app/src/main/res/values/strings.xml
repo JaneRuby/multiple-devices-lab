@@ -3,4 +3,5 @@
   <string name="question">Want to know what will happen in three months?</string>
   <string name="click_me">Click me:)</string>
   <string name="answer">You will be an awesome Android developer! Just keep working hard!</string>
+  <string name="button_text_clicked" />
 </resources>
